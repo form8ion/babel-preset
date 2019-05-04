@@ -1,7 +1,5 @@
 # babel-preset
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/form8ion/babel-preset.svg)](https://greenkeeper.io/)
-
 Shareable babel preset for the organization
 
 <!-- status badges -->
@@ -27,6 +25,7 @@ $ npm install @form8ion/babel-preset
 [![Commitizen friendly][commitizen-badge]][commitizen-link]
 [![semantic-release][semantic-release-badge]][semantic-release-link]
 [![PRs Welcome][PRs-badge]][PRs-link]
+[![Greenkeeper badge](https://badges.greenkeeper.io/form8ion/babel-preset.svg)](https://greenkeeper.io/)
 
 ### Dependencies
 

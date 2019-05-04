@@ -1,5 +1,7 @@
 # babel-preset
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/form8ion/babel-preset.svg)](https://greenkeeper.io/)
+
 Shareable babel preset for the organization
 
 <!-- status badges -->

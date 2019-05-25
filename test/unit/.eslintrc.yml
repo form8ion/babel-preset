@@ -1,11 +1,1 @@
-env:
-  mocha: true
-
-plugins:
-  - mocha
-
-extends:
-  - plugin:mocha/recommended
-
-rules:
-  mocha/no-skipped-tests: error
+extends: '@form8ion/mocha'

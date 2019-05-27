@@ -1,5 +1,5 @@
 extends: '@form8ion'
 
 overrides:
-  - files: 'test/unit/*.js'
+  - files: '**/*-test.js'
     extends: '@form8ion/mocha'

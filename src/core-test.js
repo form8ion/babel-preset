@@ -2,7 +2,7 @@ import env from '@babel/preset-env';
 import restSpread from '@babel/plugin-proposal-object-rest-spread';
 import {assert} from 'chai';
 import any from '@travi/any';
-import buildConfig from '../../src';
+import buildConfig from './index';
 
 suite('core config', () => {
   test('that preset-env targets the current version of node by default and object rest-spread is enabled', () => {

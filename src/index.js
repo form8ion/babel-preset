@@ -1,7 +1,7 @@
 import env from '@babel/preset-env';
 import restSpread from '@babel/plugin-proposal-object-rest-spread';
 
-export default function ({targets = {}, modules, react} = {}) {
+export default function (context, {targets = {}, modules, react} = {}) {
   return {
     presets: [
       [env, {

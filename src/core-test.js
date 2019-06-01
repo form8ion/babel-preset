@@ -17,7 +17,7 @@ suite('core config', () => {
 
   test('that preset-env targets the provided version of node', () => {
     const nodeVersion = any.integer();
-    const config = buildConfig({targets: {node: nodeVersion}});
+    const config = buildConfig(null, {targets: {node: nodeVersion}});
 
     assert.deepEqual(
       config.presets,
@@ -26,7 +26,7 @@ suite('core config', () => {
   });
 
   test('that preset-env does not transpile module syntax when instructed not to', () => {
-    const config = buildConfig({modules: false});
+    const config = buildConfig(null, {modules: false});
 
     assert.deepEqual(
       config.presets,

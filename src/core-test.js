@@ -8,7 +8,10 @@ suite('core config', () => {
   test('that preset-env targets the current version of node by default and object rest-spread is enabled', () => {
     const config = buildConfig();
 
-    assert.deepEqual(config.presets, [[env, {targets: {node: 'current'}}]]);
+    assert.deepEqual(
+      config.presets,
+      [[env, {targets: {node: 'current'}, exclude: ['transform-regenerator', 'transform-async-to-generator']}]]
+    );
     assert.deepEqual(config.plugins, [[restSpread, {useBuiltIns: true}]]);
   });
 
@@ -16,12 +19,25 @@ suite('core config', () => {
     const nodeVersion = any.integer();
     const config = buildConfig({targets: {node: nodeVersion}});
 
-    assert.deepEqual(config.presets, [[env, {targets: {node: nodeVersion}}]]);
+    assert.deepEqual(
+      config.presets,
+      [[env, {targets: {node: nodeVersion}, exclude: ['transform-regenerator', 'transform-async-to-generator']}]]
+    );
   });
 
   test('that preset-env does not transpile module syntax when instructed not to', () => {
     const config = buildConfig({modules: false});
 
-    assert.deepEqual(config.presets, [[env, {modules: false, targets: {node: 'current'}}]]);
+    assert.deepEqual(
+      config.presets,
+      [[
+        env,
+        {
+          modules: false,
+          targets: {node: 'current'},
+          exclude: ['transform-regenerator', 'transform-async-to-generator']
+        }
+      ]]
+    );
   });
 });

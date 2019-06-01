@@ -5,7 +5,7 @@ export default function (context, {targets = {}, modules, react} = {}) {
   return {
     presets: [
       [env, {
-        targets: {node: targets.node || 'current'},
+        targets: {node: targets.node || 'current', ...targets.browser && {browsers: ['last 2 versions']}},
         ...(false === modules) && {modules: false},
         exclude: ['transform-regenerator', 'transform-async-to-generator']
       }],

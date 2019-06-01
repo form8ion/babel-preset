@@ -40,4 +40,19 @@ suite('core config', () => {
       ]]
     );
   });
+
+  test('that targets include browsers when instructed to do so', () => {
+    const config = buildConfig(null, {targets: {browser: true}});
+
+    assert.deepEqual(
+      config.presets,
+      [[
+        env,
+        {
+          targets: {node: 'current', browsers: ['last 2 versions']},
+          exclude: ['transform-regenerator', 'transform-async-to-generator']
+        }
+      ]]
+    );
+  });
 });

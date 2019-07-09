@@ -56,7 +56,7 @@
   },
   "dependencies": {
     "@babel/core": "7.5.0",
-    "@babel/plugin-proposal-object-rest-spread": "7.5.2",
+    "@babel/plugin-proposal-object-rest-spread": "7.5.3",
     "@babel/preset-env": "7.5.2",
     "@babel/preset-react": "7.0.0",
     "babel-plugin-inline-react-svg": "1.1.0"

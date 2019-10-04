@@ -13,7 +13,9 @@ export default function (context, {targets = {}, modules, react} = {}) {
     ],
     plugins: [
       [restSpread, {useBuiltIns: true}],
-      ...react ? [require('babel-plugin-inline-react-svg').default] : []
+      ...react
+        ? [require('@babel/plugin-proposal-class-properties'), require('babel-plugin-inline-react-svg').default]
+        : []
     ]
   };
 }

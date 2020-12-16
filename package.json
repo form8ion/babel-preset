@@ -33,7 +33,7 @@
     "prepack": "run-s build"
   },
   "devDependencies": {
-    "@babel/register": "^7.4.4",
+    "@babel/register": "7.12.10",
     "@form8ion/commitlint-config": "^1.0.3",
     "@form8ion/eslint-config": "1.1.0",
     "@form8ion/eslint-config-mocha": "1.2.0",
@@ -55,8 +55,8 @@
     "travis-lint": "^1.0.0"
   },
   "dependencies": {
-    "@babel/core": "7.4.5",
-    "@babel/plugin-proposal-object-rest-spread": "7.4.4",
-    "@babel/preset-env": "7.4.5"
+    "@babel/core": "7.12.10",
+    "@babel/plugin-proposal-object-rest-spread": "7.12.1",
+    "@babel/preset-env": "7.12.11"
   }
 }

@@ -53,10 +53,10 @@
     "sinon": "9.2.4"
   },
   "dependencies": {
-    "@babel/core": "7.12.13",
+    "@babel/core": "7.12.16",
     "@babel/plugin-proposal-class-properties": "7.12.13",
     "@babel/plugin-proposal-object-rest-spread": "7.12.13",
-    "@babel/preset-env": "7.12.13",
+    "@babel/preset-env": "7.12.16",
     "@babel/preset-react": "7.12.13",
     "babel-plugin-inline-react-svg": "1.1.2"
   }

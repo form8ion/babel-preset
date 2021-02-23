@@ -58,6 +58,6 @@
     "@babel/plugin-proposal-object-rest-spread": "7.13.0",
     "@babel/preset-env": "7.13.5",
     "@babel/preset-react": "7.12.13",
-    "babel-plugin-inline-react-svg": "2.0.0"
+    "babel-plugin-inline-react-svg": "2.0.1"
   }
 }

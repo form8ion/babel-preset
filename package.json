@@ -33,7 +33,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@babel/register": "7.16.7",
+    "@babel/register": "7.16.8",
     "@form8ion/commitlint-config": "1.0.26",
     "@form8ion/eslint-config": "2.0.3",
     "@form8ion/eslint-config-mocha": "1.2.16",
@@ -57,7 +57,7 @@
     "@babel/core": "7.16.7",
     "@babel/plugin-proposal-class-properties": "7.16.7",
     "@babel/plugin-proposal-object-rest-spread": "7.16.7",
-    "@babel/preset-env": "7.16.7",
+    "@babel/preset-env": "7.16.8",
     "@babel/preset-react": "7.16.7",
     "babel-plugin-inline-react-svg": "2.0.1"
   }

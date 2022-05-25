@@ -54,10 +54,10 @@
     "sinon": "14.0.0"
   },
   "dependencies": {
-    "@babel/core": "7.18.0",
+    "@babel/core": "7.18.2",
     "@babel/plugin-proposal-class-properties": "7.17.12",
     "@babel/plugin-proposal-object-rest-spread": "7.18.0",
-    "@babel/preset-env": "7.18.0",
+    "@babel/preset-env": "7.18.2",
     "@babel/preset-react": "7.17.12",
     "babel-plugin-inline-react-svg": "2.0.1"
   }

@@ -33,15 +33,15 @@
     "provenance": true
   },
   "dependencies": {
-    "@babel/core": "7.22.1",
+    "@babel/core": "7.22.5",
     "@babel/plugin-proposal-class-properties": "7.18.6",
     "@babel/plugin-proposal-object-rest-spread": "7.20.7",
-    "@babel/preset-env": "7.22.4",
-    "@babel/preset-react": "7.22.3",
+    "@babel/preset-env": "7.22.5",
+    "@babel/preset-react": "7.22.5",
     "babel-plugin-inline-react-svg": "2.0.2"
   },
   "devDependencies": {
-    "@babel/register": "7.21.0",
+    "@babel/register": "7.22.5",
     "@form8ion/commitlint-config": "1.0.51",
     "@form8ion/eslint-config": "5.0.33",
     "@form8ion/eslint-config-mocha": "2.0.3",

@@ -1,5 +1,6 @@
 import {assert} from 'chai';
-import buildConfig from '.';
+
+import buildConfig from './index.js';
 
 suite('react config', () => {
   test('that react is configured when specified', () => {
